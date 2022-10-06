@@ -32,6 +32,7 @@ while True:
             counter += 1
         if x == input_value:
             output_string = 'You got it!'
+            window['-CHECK-'].update(disabled = True)
             counter += 1
 
         window['-OUTPUT-'].update(output_string)
