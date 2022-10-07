@@ -25,6 +25,9 @@ while True:
         break
     if event == '-RESET-':
         window = new_window()
+        counter = 0
+        x = randint(1, 100)
+        print(x)
     if event == '-CHECK-':
         window['-INPUT-'].update('')
         input_value = int(values['-INPUT-'])
